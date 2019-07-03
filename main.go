@@ -282,7 +282,7 @@ func main() {
 			checkFourPlusFourAnswer := FourPlusFour(fourPlusFourAnswer)
 			fmt.Println(checkFourPlusFourAnswer)
 
-			fmt.Println("Well done and Thank you :) On to the next chapter of our growing friendship...see you next time!")
+			fmt.Println("Well done and Thanks :) On to the next chapter of our growing friendship...see you next time!")
 
 		}
 	}
