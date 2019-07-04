@@ -25,7 +25,7 @@ func main() {
 			}
 			fmt.Println("Please answer yes or no so I know if you want to be virtual buddies. Please do not add spaces when inputting your answer.")
 		}
-	}
+	}s
 
 	fmt.Println("Let's start with the basics. What's your name?")
 	FirstNameQu := ""
@@ -136,25 +136,25 @@ func main() {
 			fmt.Println("Great here we go...")
 			fmt.Println("I am going to ask you 5 questions about Shakespeare. Side note: my major in college was Shakespeare's applicability to today's political climate so they will get progressively harder...")
 
-			fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time!")
+			fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time! You only need to give the first word")
 			lovePlayAnswer := ""
 			fmt.Scanln(&lovePlayAnswer)
 			checkLovePlayAnswer := ShakeQuOne(lovePlayAnswer)
 			fmt.Println(checkLovePlayAnswer)
 
-			fmt.Println("What play are the characters Ariel and Calaban in?")
+			fmt.Println("What play are the characters Ariel and Calaban in, hint: The...?? You only have to get the second word...")
 			tempestAnswer := ""
 			fmt.Scanln(&tempestAnswer)
 			checkTempestAnswer := ShakeQuTwo(tempestAnswer)
 			fmt.Println(checkTempestAnswer)
 
-			fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material.")
+			fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material, I only need his first name.")
 			actorAnswer := ""
 			fmt.Scanln(&actorAnswer)
 			checkActorAnswer := ShakeQuThree(actorAnswer)
 			fmt.Println(checkActorAnswer)
 
-			fmt.Println("Finish the line from Hamlet: To be, or not to be...")
+			fmt.Println("Finish the line from Hamlet: To be, or not to be, that is the...")
 			toBeAnswer := ""
 			fmt.Scanln(&toBeAnswer)
 			checkToBeAnswer := ShakeQuFour(toBeAnswer)
@@ -179,25 +179,25 @@ func main() {
 		fmt.Println("Great here we go...")
 		fmt.Println("I am going to ask you 5 questions about Shakespeare. Side note: my major in college was Shakespeare's applicability to today's political climate so they will get progressively harder...")
 
-		fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time!")
+		fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time! You only need to give the first word")
 		lovePlayAnswer := ""
 		fmt.Scanln(&lovePlayAnswer)
 		checkLovePlayAnswer := ShakeQuOne(lovePlayAnswer)
 		fmt.Println(checkLovePlayAnswer)
 
-		fmt.Println("What play are the characters Ariel and Calaban in?")
+		fmt.Println("What play are the characters Ariel and Calaban in, hint: The...?? You only have to get the second word...")
 		tempestAnswer := ""
 		fmt.Scanln(&tempestAnswer)
 		checkTempestAnswer := ShakeQuTwo(tempestAnswer)
 		fmt.Println(checkTempestAnswer)
 
-		fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material.")
+		fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material, I only need his first name.")
 		actorAnswer := ""
 		fmt.Scanln(&actorAnswer)
 		checkActorAnswer := ShakeQuThree(actorAnswer)
 		fmt.Println(checkActorAnswer)
 
-		fmt.Println("Finish the line from Hamlet: To be, or not to be...")
+		fmt.Println("Finish the line from Hamlet: To be, or not to be, that is the...")
 		toBeAnswer := ""
 		fmt.Scanln(&toBeAnswer)
 		checkToBeAnswer := ShakeQuFour(toBeAnswer)
@@ -218,25 +218,25 @@ func main() {
 			fmt.Println("Great here we go...")
 			fmt.Println("I am going to ask you 5 questions about Shakespeare. Side note: my major in college was Shakespeare's applicability to today's political climate so they will get progressively harder...")
 
-			fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time!")
+			fmt.Println("What is Shakespeare's most famous and performed play about love? Which also happens to be my favourite Baz Luhrmann movie, makes me cry every time! You only need to give the first word")
 			lovePlayAnswer := ""
 			fmt.Scanln(&lovePlayAnswer)
 			checkLovePlayAnswer := ShakeQuOne(lovePlayAnswer)
 			fmt.Println(checkLovePlayAnswer)
 
-			fmt.Println("What play are the characters Ariel and Calaban in?")
+			fmt.Println("What play are the characters Ariel and Calaban in, hint: The...?? You only have to get the second word...")
 			tempestAnswer := ""
 			fmt.Scanln(&tempestAnswer)
 			checkTempestAnswer := ShakeQuTwo(tempestAnswer)
 			fmt.Println(checkTempestAnswer)
 
-			fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material.")
+			fmt.Println("Who is the best Shakespeare actor currently alive? This is my opinion but this will establish if you are friend or best friend material, I only need his first name.")
 			actorAnswer := ""
 			fmt.Scanln(&actorAnswer)
 			checkActorAnswer := ShakeQuThree(actorAnswer)
 			fmt.Println(checkActorAnswer)
 
-			fmt.Println("Finish the line from Hamlet: To be, or not to be...")
+			fmt.Println("Finish the line from Hamlet: To be, or not to be, that is the...")
 			toBeAnswer := ""
 			fmt.Scanln(&toBeAnswer)
 			checkToBeAnswer := ShakeQuFour(toBeAnswer)
@@ -330,7 +330,7 @@ func FourPlusFour(i string) string {
 }
 
 func ShakeQuOne(i string) string {
-	if i == "Romeo and Juliet" || i == "romeo and juliet" {
+	if i == "Romeo" || i == "romeo" {
 		return "correct - well done!"
 	} else {
 		return "Sorry that's not right. Let's try another question."
@@ -338,7 +338,7 @@ func ShakeQuOne(i string) string {
 }
 
 func ShakeQuTwo(i string) string {
-	if i == "The Tempest" || i == "the tempest" {
+	if i == "Tempest" || i == "tempest" {
 		return "correct - well done!"
 	} else {
 		return "Sorry that's not right. Let's try another question."
@@ -346,7 +346,7 @@ func ShakeQuTwo(i string) string {
 }
 
 func ShakeQuThree(i string) string {
-	if i == "Mark Rylance" || i == "mark rylance" {
+	if i == "Mark" || i == "mark" {
 		return "AMAZING! We need to be best friends."
 	} else {
 		return "Sorry, wrong. Ok. That was a little bit too hard. I'll make the nexrt one easier. Well easier-ish..."
@@ -354,7 +354,7 @@ func ShakeQuThree(i string) string {
 }
 
 func ShakeQuFour(i string) string {
-	if i == "that is the question" {
+	if i == "question" || i == "Question" {
 		return "Perfect."
 	} else {
 		return "Sorry wrong. There really is no excuse for not knowing this one, unless you made a spelling mistake."
@@ -362,8 +362,8 @@ func ShakeQuFour(i string) string {
 }
 
 func ShakeQuFive(i string) string {
-	if i == "April 23rd 1616" || i == "April" || i == "1616" {
-		return "Correct. You will see me wearing black!"
+	if i == "1616" {
+		return "Correct. A sad year!"
 	} else {
 		return "Not right. But that was a hard one so we can still be friends"
 	}
