@@ -20,8 +20,8 @@ The user interacts with the "virtual friend" via the terminal, answer questions 
 **How to run program?**
 
 If you would like to run this program yourself in the terminal all you have to do is: 
-- Close this repository.  
-- Open your terminal and navigate to this directory before running “go run PeanutbutterJelly.go” 
+- Clone this repository.  
+- Open your terminal and navigate to this directory before running “go run virtual-friend.go” 
 - The terminal should then display the following:
 
 ```
