@@ -25,7 +25,7 @@ func main() {
 			}
 			fmt.Println("Please answer yes or no so I know if you want to be virtual buddies. Please do not add spaces when inputting your answer.")
 		}
-	}s
+	}
 
 	fmt.Println("Let's start with the basics. What's your name?")
 	FirstNameQu := ""
@@ -283,7 +283,7 @@ func main() {
 			fmt.Println(checkFourPlusFourAnswer)
 
 			fmt.Println("Well done and Thanks :) On to the next chapter of our growing friendship...see you next time!")
-
+			return
 		}
 	}
 }
