@@ -3,7 +3,6 @@
 **What is this program and what is its purpose?**
 
 This was the first program I wrote and the purpose was to practice the basic concepts I had learnt thus far: functions, loops, if/else statements, taking user input etc. The purpose of this program is for it to be a fun little personal friend that asked and answered questions for you. 
-This is an MVP that could eventually turn into a more substantial personalized friend experience in future iterations. 
 
 **How would you use this?**
 
@@ -17,7 +16,7 @@ To practice the basic concepts I had learnt thus far: functions, loops, if/else 
 
 The user interacts with the "virtual friend" via the terminal, answer questions and getting responses back. 
 
-**How to run program?**
+**How to run the program?**
 
 If you would like to run this program yourself in the terminal all you have to do is: 
 - Clone this repository.  
